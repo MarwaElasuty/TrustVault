@@ -1,29 +1,40 @@
 {
   "files": {
-    "main.css": "/TrustVault/static/css/main.3953eeb0.css",
-    "main.js": "/TrustVault/static/js/main.a761bb6d.js",
+    "main.css": "/TrustVault/static/css/main.7b612309.css",
+    "main.js": "/TrustVault/static/js/main.3d472727.js",
     "static/js/453.0ab489a9.chunk.js": "/TrustVault/static/js/453.0ab489a9.chunk.js",
     "static/media/download-app.svg": "/TrustVault/static/media/download-app.4b01f6dbf388d6aea5b935129e90d1f4.svg",
     "static/media/download.svg": "/TrustVault/static/media/download.7633be72af7a28e4924ad836bc42ecdd.svg",
+    "static/media/benefit1.svg": "/TrustVault/static/media/benefit1.1844fcc8aa5721cc0ec23744023e4901.svg",
     "static/media/why-choose1.svg": "/TrustVault/static/media/why-choose1.1c207c01498a83db848c5db7f9947f57.svg",
     "static/media/what-is.svg": "/TrustVault/static/media/what-is.7b8bc72a4fb4aa617d0fefacfb1a295f.svg",
     "static/media/why-choose2.svg": "/TrustVault/static/media/why-choose2.19425ce1f52e3579351362ee8e90e431.svg",
+    "static/media/benefit3.svg": "/TrustVault/static/media/benefit3.b6e6b96a8165c880f5fbd299fb787f21.svg",
+    "static/media/next-level-bg.png": "/TrustVault/static/media/next-level-bg.48701f1c6164d1864f5b.png",
+    "static/media/benefit2.svg": "/TrustVault/static/media/benefit2.ea17ac7663a27023e4200fcceef9c257.svg",
+    "static/media/blockchain1.svg": "/TrustVault/static/media/blockchain1.9dd4e07b2cca4d588cdac663fdef3d2d.svg",
     "static/media/main-mobiles.png": "/TrustVault/static/media/main-mobiles.e5fffdb34d6be711e48e.png",
     "static/media/trustvault.svg": "/TrustVault/static/media/trustvault.426e55391144ec09c3fb58570574e621.svg",
     "static/media/crypto1.svg": "/TrustVault/static/media/crypto1.463d78be3d7a42a5a81e9ef5c245d421.svg",
+    "static/media/blockchain3.svg": "/TrustVault/static/media/blockchain3.c8560afcb011bb16c3799917a56eec88.svg",
+    "static/media/blockchain2.svg": "/TrustVault/static/media/blockchain2.f96efebd8654fc2ad0fb2229bdac4298.svg",
+    "static/media/middle-feature.png": "/TrustVault/static/media/middle-feature.f1f02384cf039ddf397a.png",
+    "static/media/blockchain4.svg": "/TrustVault/static/media/blockchain4.445a1465ea9844344392a84cbd1d8457.svg",
     "static/media/feature2.svg": "/TrustVault/static/media/feature2.7008acb2d30dbc7cf66d108cc33b7a55.svg",
     "static/media/feature1.svg": "/TrustVault/static/media/feature1.56e9f7bb6fa9b75dbce16db1d8855486.svg",
     "static/media/feature3.svg": "/TrustVault/static/media/feature3.bca06b6e8beb32601c7a363bdc5670d9.svg",
     "static/media/IOS.svg": "/TrustVault/static/media/IOS.76171126339ac5a37fd299c5bd1ce0cf.svg",
     "static/media/whatsapp.svg": "/TrustVault/static/media/whatsapp.81052d3c7104654ac700c38c42bce134.svg",
+    "static/media/why-choose-line.svg": "/TrustVault/static/media/why-choose-line.6bd145fa1d0db46ae325.svg",
     "static/media/main-bg.svg": "/TrustVault/static/media/main-bg.18ac7bc30fdbd127b170.svg",
     "index.html": "/TrustVault/index.html",
-    "main.3953eeb0.css.map": "/TrustVault/static/css/main.3953eeb0.css.map",
-    "main.a761bb6d.js.map": "/TrustVault/static/js/main.a761bb6d.js.map",
+    "static/media/benefit-shadow.svg": "/TrustVault/static/media/benefit-shadow.ab3a0874c4ff6697f8a2.svg",
+    "main.7b612309.css.map": "/TrustVault/static/css/main.7b612309.css.map",
+    "main.3d472727.js.map": "/TrustVault/static/js/main.3d472727.js.map",
     "453.0ab489a9.chunk.js.map": "/TrustVault/static/js/453.0ab489a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3953eeb0.css",
-    "static/js/main.a761bb6d.js"
+    "static/css/main.7b612309.css",
+    "static/js/main.3d472727.js"
   ]
 }
