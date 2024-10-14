@@ -12,11 +12,13 @@ import download from './images/download.svg';
 import whatsapp from './images/whatsapp.svg';
 import IOS from './images/IOS.svg';
 import downloadApp from './images/download-app.svg';
-
-
-
-
-
+import blockchain1 from './images/blockchain1.svg';
+import blockchain2 from './images/blockchain2.svg';
+import blockchain3 from './images/blockchain3.svg';
+import blockchain4 from './images/blockchain4.svg';
+import benefit1 from './images/benefit1.svg';
+import benefit2 from './images/benefit2.svg';
+import benefit3 from './images/benefit3.svg';
 
 
 
@@ -55,48 +57,66 @@ function App() {
       </section>
       </section>
 
+   
+
+
       {/* Features Section */}
       <section className="w-full py-16 px-4 text-gray-800">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
-          <div className="py-6 px-6 border rounded-lg shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
-            <img src={feature1} className='w-12 py-6'></img>
-            <h2 className="text-2xl font-semibold">Multi-Signature Technology</h2>
-            <h4 className="font-light text-lg">An additional layer of security</h4>
+          <div className="py-6 px-6 border rounded-3xl shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
+            <img src={feature1} className='w-15 py-6'></img>
+            <h2 className="text-2xl font-semibold mb-3">Multi-Signature Technology</h2>
+            <h4 className="font-light text-lg italic">An additional layer of security</h4>
             <p className="mt-4 md:text-md lg:text-lg text-stone-300 font-light">Require multiple signatures for transactions, ensuring enhanced protection</p>
           </div>
-          <div className="py-6 bg-middle-feature bg-cover bg-no-repeat px-6 border rounded-lg shadow-md">
-            <img src={feature2} className='w-12 py-6'></img>
-            <h2 className="text-2xl font-semibold">Self-Custody</h2>
-            <h4 className="font-light text-lg">Your keys, your crypto</h4>
+          <div className="py-6 bg-middle-feature bg-contain bg-no-repeat px-6 border rounded-3xl shadow-md">
+            <img src={feature2} className='w-15 py-6'></img>
+            <h2 className="text-2xl font-semibold mb-3">Self-Custody</h2>
+            <h4 className="font-light text-lg italic">Your keys, your crypto</h4>
             <p className="mt-4 md:text-md lg:text-lg text-stone-300 font-light">Store your crypto securely, with full control over your private keys</p>
           </div>
-          <div className="py-6 px-6 border rounded-lg shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900 ">
-            <img src={feature3} className='w-12 py-6'></img>
-            <h2 className="text-2xl font-semibold">Multi-Signature Technology</h2>
-            <h4 className="font-light text-lg">An additional layer of security</h4>
+          <div className="py-6 px-6 border rounded-3xl shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900 ">
+            <img src={feature3} className='w-15 py-6'></img>
+            <h2 className="text-2xl font-semibold mb-3">Buy, Swap, Send and Store</h2>
+            <h4 className="font-light text-lg italic">Easily manage your crypto portfolio</h4>
             <p className="mt-4 md:text-md lg:text-lg text-stone-300 font-light">Require multiple signatures for transactions, ensuring enhanced protection</p>
           </div>
         </div>
       </section>
 
-      <section className="w-full py-16 px-4 text-gray-800">
-        <div className="w-3/4 mx-auto flex flex-wrap items-center justify-between text-white">
-          <div>
-            <img src={whatis}></img>
-          </div>
-          <div>
-            <p className='text-4xl font-extrabold'>What is SAFESEND?</p>
-            <p className='text-base font-medium w-96'>Experience a new level of security with SafeSend! Before sending large amounts, SafeSend kicks off the process with a transfer, verified by the recipient through a one-time password (OTP). Thisa smart feature ensures your funds land exactly where you want them, eliminating the risk of crypto clipping or sending to the wrong address. Once stage 1 of the transfer is confirmed, the full amount is released with confidence. Say goodbye to transaction anxiety and hello to seamless, secure transfers with SafeSend!</p>
-            <button className=''>Read More</button>
-          </div>
+      <section className="w-full text-white">
+  <div className="mx-auto text-center">
+      <h1 className='text-3xl font-semibold py-3 relative z-10' style={{
+      background: "linear-gradient(to left, #7EBF02, #2F5FE5)", 
+      transform: "rotate(0.7deg)"}}>TRUSTVAULT SAFESEND OTP TRANSFERS</h1>
+      </div>
+      <div className="mx-auto text-center">
+      <h1 className='min-h-14 mt-[-55px] text-4xl font-semibold py-3' style={{
+      background: "linear-gradient(to left, #2F5FE5, #7EBF02)", 
+      transform: "rotate(-0.9deg)"}}></h1>
+      </div>
+</section>
+
+<section className="w-full py-16 px-4 text-gray-800">
+  <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between text-white">
+    <div className="mb-8 md:mb-0 md:w-1/3"> {/* Adjusted width for the image div */}
+      <img src={whatis} alt="What is SAFESEND?" className="w-3/4 h-auto mx-auto" /> {/* Made the image smaller */}
+    </div>
+    <div className="md:w-2/3"> {/* Adjusted width for the text div */}
+      <p className="text-3xl md:text-4xl font-extrabold">What is SAFESEND?</p>
+      <p className="text-base font-medium mt-4">
+        Experience a new level of security with SafeSend! Before sending large amounts, SafeSend kicks off the process with a transfer, verified by the recipient through a one-time password (OTP). This smart feature ensures your funds land exactly where you want them, eliminating the risk of crypto clipping or sending to the wrong address. Once stage 1 of the transfer is confirmed, the full amount is released with confidence. Say goodbye to transaction anxiety and hello to seamless, secure transfers with SafeSend!
+      </p>
+      <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition">Read More</button>
+    </div>
+  </div>
+</section>
 
 
-        </div>
-      </section>
 
       <section className="w-full py-16 px-4 text-gray-800 mt-12">
   <div
-    className="max-w-6xl mx-auto bg-gray-800 flex flex-col md:flex-row justify-evenly md:space-x-8 space-y-6 md:space-y-0 rounded-lg"
+    className="max-w-7xl mx-auto bg-gray-800 flex flex-col md:flex-row justify-evenly md:space-x-8 space-y-6 md:space-y-0 rounded-lg"
     style={{
       background: "linear-gradient(to top, #121318, #1B1E23)",
       borderTop: "1px solid white",
@@ -124,105 +144,131 @@ function App() {
   </div>
 </section>
 
-      <section class="py-16">
-        <div class="max-w-6xl mx-auto bg-gray-900 p-8 rounded-lg">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold">Why Choose Our Multisig Wallet?</h2>
-            <p class="text-lg text-gray-400 mt-2">Unmatched Security and Total Control for Your Digital Assets</p>
-          </div>
 
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div class="flex flex-col lg:flex-row bg-gray-800 p-6 rounded-lg space-y-6 lg:space-y-0 lg:space-x-6">
-              <img src={feature3} className='w-12 py-6'></img>
-              <div class="flex flex-col justify-center">
-                <h3 class="text-2xl font-semibold mb-4">Enhanced Security and Peace of Mind</h3>
-                <p class="text-gray-400 mb-4">
-                  Our multisig wallet ensures that your digital assets are protected by requiring multiple approvals for every transaction. This reduces the risk of unauthorized access and provides you with confidence that your funds are secure.
-                </p>
-                <button class="mt-auto bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-500 transition-all">Learn More</button>
-              </div>
-            </div>
-
-            <div class="flex flex-col lg:flex-row bg-gray-800 p-6 rounded-lg space-y-6 lg:space-y-0 lg:space-x-6">
-              <img src={feature3} className='w-12 py-6'></img>
-              <div class="flex flex-col justify-center">
-                <h3 class="text-2xl font-semibold mb-4">Full Control and Flexibility</h3>
-                <p class="text-gray-400 mb-4">
-                  With our wallet, you maintain full control over your assets. The ability to customize the number of required signers gives you the flexibility to tailor security to your specific needs.
-                </p>
-                <button class="mt-auto bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-500 transition-all">Learn More</button>
-              </div>
-            </div>
-          </div>
+<section className="w-full py-16 px-4">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-4xl font-medium text-center mb-4 text-white">Supported Blockchains and Currencies</h2>
+    <h3 className="text-xl font-medium text-center mb-4 text-white">Comprehensive Support for All Your Digital Assets</h3>
+    <p className='font-normal text-stone-300 text-center mb-8'>Our platform supports a wide range of blockchains, cryptocurrencies, and NFTs across various protocols. Easily manage your digital assets and collectibles, all in one secure and versatile app.</p>
+    <div className="grid grid-cols-1 md:grid-cols-10 gap-6 text-center"> {/* Change to 10 columns */}
+      {/* First Card (Larger) */}
+      <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-xl p-6 flex flex-col justify-between text-white md:col-span-4"> {/* Spans 4 columns */}
+        <div>
+          <h3 className="text-xl font-semibold mb-2">Supported cryptocurrencies</h3>
+          <p className="text-base mb-6">
+            Description of the main feature that is larger and more detailed.
+          </p>
         </div>
-      </section>
-
-
-      <section class="py-16 bg-gray-900">
-        <h2 class="text-center text-4xl font-bold mb-8">How it Works</h2>
-        <div class="flex flex-col md:flex-row justify-center md:space-x-8 space-y-6 md:space-y-0">
-          <div class="flex items-start space-x-4 bg-gray-800 p-6 rounded-lg">
-            <span class="text-5xl font-bold text-white">1</span>
-            <div>
-              <h3 class="text-xl font-semibold mb-2">Secure Setup</h3>
-              <p class="text-gray-400">Follow the steps to secure your assets with TrustVault's advanced system.</p>
-            </div>
-          </div>
-          <div class="flex items-start space-x-4 bg-gray-800 p-6 rounded-lg">
-            <span class="text-5xl font-bold text-green-500">2</span>
-            <div>
-              <h3 class="text-xl font-semibold mb-2">Approve Transactions</h3>
-              <p class="text-gray-400">Easily approve transactions with the highest level of security.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="w-1/2 mx-auto md:space-x-8 space-y-6 md:space-y-0">
-        <h2 className='text-3xl text-white'>The Future of Secure Crypto Management</h2>
-        <h2 className='text-xl text-white'>Key Features that Empower Your Crypto Journey</h2>
-        <h2 className='text-lg text-white'>Unveil the cutting-edge features of our multisig wallet, crafted to provide top-notch security and control over your digital assets. Here are the six main features that set our wallet apart in the industry.</h2>
+        <img src={blockchain1} alt="Main Feature" className='w-64 mx-auto'/>
       </div>
-      <section className="w-full py-16 px-4 text-gray-800">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
-          <div className="bg-crypto bg-cover py-6 px-6 border rounded-lg shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
-            <img src={crypto1} className='py-4 ml-auto'></img>
-            <h2 className="text-2xl font-semibold">Personalised dashboard</h2>
-            <p className="mt-1 md:text-md lg:text-lg text-stone-300 font-light">Allows to view their portfolios, track
-              transactions, monitor the market, and make transactions quickly with saved contacts. Users can also add or remove widgets, and effortlessly organize their space.</p>
-          </div>
-          <div className="bg-crypto bg-cover py-6 px-6 border rounded-lg shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
-            <img src={crypto1} className='py-4 ml-auto'></img>
-            <h2 className="text-2xl font-semibold">Personalised dashboard</h2>
-            <p className="mt-1 md:text-md lg:text-lg text-stone-300 font-light">Allows to view their portfolios, track
-              transactions, monitor the market, and make transactions quickly with saved contacts. Users can also add or remove widgets, and effortlessly organize their space.</p>
-          </div>
-          <div className="bg-crypto bg-cover py-6 px-6 border rounded-lg shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
-            <img src={crypto1} className='py-4 ml-auto'></img>
-            <h2 className="text-2xl font-semibold">Personalised dashboard</h2>
-            <p className="mt-1 md:text-md lg:text-lg text-stone-300 font-light">Allows to view their portfolios, track
-              transactions, monitor the market, and make transactions quickly with saved contacts. Users can also add or remove widgets, and effortlessly organize their space.</p>
-          </div>
-          <div className="bg-crypto bg-cover py-6 px-6 border rounded-lg shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
-            <img src={crypto1} className='py-4 ml-auto'></img>
-            <h2 className="text-2xl font-semibold">Personalised dashboard</h2>
-            <p className="mt-1 md:text-md lg:text-lg text-stone-300 font-light">Allows to view their portfolios, track
-              transactions, monitor the market, and make transactions quickly with saved contacts. Users can also add or remove widgets, and effortlessly organize their space.</p>
-          </div>
-          <div className="bg-crypto bg-cover py-6 px-6 border rounded-lg shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
-            <img src={crypto1} className='py-4 ml-auto'></img>
-            <h2 className="text-2xl font-semibold">Personalised dashboard</h2>
-            <p className="mt-1 md:text-md lg:text-lg text-stone-300 font-light">Allows to view their portfolios, track
-              transactions, monitor the market, and make transactions quickly with saved contacts. Users can also add or remove widgets, and effortlessly organize their space.</p>
-          </div>
-          <div className="bg-crypto bg-cover py-6 px-6 border rounded-lg shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
-            <img src={crypto1} className='py-4 ml-auto'></img>
-            <h2 className="text-2xl font-semibold">Personalised dashboard</h2>
-            <p className="mt-1 md:text-md lg:text-lg text-stone-300 font-light">Allows to view their portfolios, track
-              transactions, monitor the market, and make transactions quickly with saved contacts. Users can also add or remove widgets, and effortlessly organize their space.</p>
+
+      {/* Other Three Cards */}
+      <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
+        <div>
+          <h3 className="text-xl font-semibold mb-2">Supported token standards</h3>
+          <p className="text-base mb-6">Brief description of feature 1.</p>
+        </div>
+        <img src={blockchain2} alt="Feature 1" className='1/3 mx-auto' />
+      </div>
+
+      <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
+        <div>
+          <h3 className="text-xl font-semibold mb-2">Supported NFTs</h3>
+          <p className="text-base mb-6">Brief description of feature 2.</p>
+        </div>
+        <img src={blockchain3} alt="Feature 2" className='1/3 mx-auto' />
+      </div>
+
+      <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
+        <div>
+          <h3 className="text-xl font-semibold mb-2">Staking Coming Soon</h3>
+          <p className="text-base mb-6">Brief description of feature 3.</p>
+        </div>
+        <img src={blockchain4} alt="Feature 3" className='1/3 mx-auto'/>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section className="w-full py-16 px-4">
+  <h1 className='text-5xl text-white mb-6 text-center'>Benefits</h1>
+  <div className="max-w-6xl mx-auto bg-gradient-to-t from-neutral-950 to-zinc-900 border border-white border-b-0 rounded-3xl">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-12 text-white">
+      
+      {/* Left Card */}
+      <div className="flex flex-col items-center text-center min-h-64 h-full">
+        <img src={benefit1} alt="Feature 1" className="mb-7" />
+        <h2 className="text-xl font-semibold mb-2">Enhanced Security</h2>
+        <h4 className="text-base font-light mb-5 w-48 mx-auto">Protect your assets with multisig protection</h4>
+        <p className="text-sm text-stone-300 w-72 mx-auto flex-grow">Mitigate the risk of unauthorized transactions and ensure secure storage.</p>
+      </div>
+
+      {/* Middle Card with Background Image */}
+      <div className="flex flex-col items-center text-center relative min-h-64 h-full">
+        {/* Background Image Placeholder */}
+        <div className="absolute inset-0 bg-benefit-shadow bg-cover bg-no-repeat" style={{ left: '20%', top: '0%' }}></div>
+        <img src={benefit2} alt="Feature 2" className="mb-7 z-10" />
+        <h2 className="text-xl font-semibold mb-2 z-10">Collaborative Management</h2>
+        <h4 className="text-base font-light mb-5 z-10 w-90 mx-auto">Manage crypto with others, securely</h4>
+        <p className="text-sm text-stone-300 z-10 w-72 mx-auto flex-grow">Multisig enables shared management of crypto assets, with built-in security.</p>
+      </div>
+
+      {/* Right Card */}
+      <div className="flex flex-col items-center text-center min-h-64 h-full">
+        <img src={benefit3} alt="Feature 3" className="mb-7" />
+        <h2 className="text-xl font-semibold mb-2">Flexibility</h2>
+        <h4 className="text-base font-light mb-5 w-90 mx-auto">Customize your multisig settings</h4>
+        <p className="text-sm text-stone-300 w-72 mx-auto flex-grow">Choose the number of signatures required and assign roles for tailored security</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+    
+
+
+<section class="w-full py-16">
+<div className="max-w-6xl mx-auto text-white">
+<h2 class="text-center text-4xl font-bold mb-8">How it Works</h2>
+    <div class="flex flex-col md:flex-row justify-evenly md:space-x-8 space-y-6 md:space-y-0">
+      <div class="flex flex-col items-center w-full md:w-1/2">
+        <div class="flex items-center space-x-4 mb-6">  
+          <span class="text-9xl font-extrabold text-white">1</span>
+          <div className='bg-gray-800 rounded-3xl py-8 px-6 w-full min-h-44'>  
+            <h3 class="text-2xl font-semibold mb-2">Secure Setup</h3> 
+            <p class="text-gray-400">Create your multisig wallet by selecting the number of signatures required to approve a transaction. Invite trusted parties to join the wallet, each with their own private key securely stored on their device.</p>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="flex flex-col items-center w-full md:w-1/2">
+        <div class="flex items-center space-x-4 mb-6">  
+          <span class="text-9xl font-extrabold text-green-500">2</span>
+          <div className='bg-gray-800 rounded-3xl py-8 px-6 w-full min-h-44'>  
+            <h3 class="text-2xl font-semibold mb-2">Approve Transactions</h3>
+            <p class="text-gray-400">When a transaction is initiated, it requires approval from the designated number of signers. Once the required signatures are collected, the transaction is securely executed on the blockchain, ensuring maximum security and control.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+   
+
+
+
 
 
       {/*Why Choose*/}
@@ -280,9 +326,12 @@ function App() {
         </div>
       </section>
 
+
+     
+
       {/* FAQ */}
       <section className="w-full py-16 px-4 text-gray-800">
-        <div className="max-w-5xl mx-auto  gap-8 text-white">
+        <div className="max-w-6xl mx-auto  gap-8 text-white">
           <h1 className='text-5xl text-white'>FAQ</h1>
           <section class="w-full py-16 text-gray-800">
             <div class="mx-auto flex justify-between items-center py-6 rounded-lg">
@@ -535,38 +584,57 @@ function App() {
       </div>
 
       {/* Right Side: Footer Links */}
-      <div className="md:w-1/2 flex flex-col md:flex-row justify-between">
-        <ul className="mb-4 md:mb-0 space-y-5">
-        <li className="mb-2 font-bold">TRUSTVAULT</li>
-          <li className="mb-2">Home</li>
-          <li className="mb-2">About us</li>
-          <li className="mb-2">Features</li>
-          <li className="mb-2">Press & Partners</li>
-          <li className="mb-2">Blog</li>
-          <li className="mb-2">Privacy Policy</li>
-          <li className="mb-2">Terms of Service</li>
+      <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-between">
+      <div className="grid grid-cols-2 md:flex md:flex-row w-full gap-4">
+        {/* List 1 */}
+        <ul className="mb-4 md:mb-0 space-y-5 w-full">
+          <li className="font-bold">TRUSTVAULT</li>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Features</li>
+          <li>Press & Partners</li>
+          <li>Blog</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
         </ul>
-        <ul className="mb-4 md:mb-0 space-y-5">
-        <li className="mb-2 font-bold">DISCOVER</li>
-        <li className="mb-2">Home</li>
-          <li className="mb-2">About us</li>
-          <li className="mb-2">Features</li>
-          <li className="mb-2">Press & Partners</li>
-          <li className="mb-2">Blog</li>
-          <li className="mb-2">Privacy Policy</li>
-          <li className="mb-2">Terms of Service</li>
+
+        {/* List 2 */}
+        <ul className="mb-4 md:mb-0 space-y-5 w-full">
+          <li className="font-bold">DISCOVER</li>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Features</li>
+          <li>Press & Partners</li>
+          <li>Blog</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
         </ul>
-        <ul className="mb-4 md:mb-0 space-y-5">
-        <li className="mb-2 font-bold">FOLLOW US</li>
-        <li className="mb-2">Home</li>
-          <li className="mb-2">About us</li>
-          <li className="mb-2">Features</li>
-          <li className="mb-2">Press & Partners</li>
-          <li className="mb-2">Blog</li>
-          <li className="mb-2">Privacy Policy</li>
-          <li className="mb-2">Terms of Service</li>
+
+        {/* List 3 for Mobile */}
+        <ul className="mb-4 md:mb-0 space-y-5 w-full md:hidden">
+          <li className="font-bold">FOLLOW US</li>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Features</li>
+          <li>Press & Partners</li>
+          <li>Blog</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
         </ul>
       </div>
+
+      {/* Mobile-only List 3 */}
+      <ul className="hidden md:flex md:flex-col mb-4 md:mb-0 space-y-5">
+        <li className="font-bold">FOLLOW US</li>
+        <li>Home</li>
+        <li>About us</li>
+        <li>Features</li>
+        <li>Press & Partners</li>
+        <li>Blog</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+      </ul>
+    </div>
     </footer>
 
     </div>

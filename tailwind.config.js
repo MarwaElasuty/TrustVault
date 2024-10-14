@@ -7,18 +7,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         'next-level': "url('./images/next-level-bg.png')",
-      },
-      backgroundImage: {
         'middle-feature': "url('./images/middle-feature.png')",
-      },
-      backgroundImage: {
         'crypto': "url('./images/crypto-bg.png')",
-      },
-      backgroundImage: {
         'why-choose-line': "url('./images/why-choose-line.svg')",
-      },
-      backgroundImage: {
         'main-bg': "url('./images/main-bg.svg')",
+        "benefit-shadow": "url('./images/benefit-shadow.svg')"
       },
       borderRadius: {
         'custom': '50px', // Custom value
