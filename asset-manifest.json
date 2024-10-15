@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TrustVault/static/css/main.36184791.css",
-    "main.js": "/TrustVault/static/js/main.bc73f3d2.js",
+    "main.css": "/TrustVault/static/css/main.7de8be3e.css",
+    "main.js": "/TrustVault/static/js/main.c69f0113.js",
     "static/js/453.0ab489a9.chunk.js": "/TrustVault/static/js/453.0ab489a9.chunk.js",
     "static/media/download-app.svg": "/TrustVault/static/media/download-app.4b01f6dbf388d6aea5b935129e90d1f4.svg",
     "static/media/download.svg": "/TrustVault/static/media/download.7633be72af7a28e4924ad836bc42ecdd.svg",
@@ -39,14 +39,15 @@
     "static/media/downloadBtnBorder.svg": "/TrustVault/static/media/downloadBtnBorder.f9c6e13c8a8ac9424bc1b98f1bc21f3f.svg",
     "index.html": "/TrustVault/index.html",
     "static/media/full-screen-shadow.svg": "/TrustVault/static/media/full-screen-shadow.5902039a972a62322712.svg",
+    "static/media/linear-line.svg": "/TrustVault/static/media/linear-line.bab3ef687d8e87e33f98323aa641856f.svg",
     "static/media/benefit-shadow.svg": "/TrustVault/static/media/benefit-shadow.ab3a0874c4ff6697f8a2.svg",
     "static/media/download-app-shadow.svg": "/TrustVault/static/media/download-app-shadow.775fca59be89a5bb1736fdc37e32f452.svg",
-    "main.36184791.css.map": "/TrustVault/static/css/main.36184791.css.map",
-    "main.bc73f3d2.js.map": "/TrustVault/static/js/main.bc73f3d2.js.map",
+    "main.7de8be3e.css.map": "/TrustVault/static/css/main.7de8be3e.css.map",
+    "main.c69f0113.js.map": "/TrustVault/static/js/main.c69f0113.js.map",
     "453.0ab489a9.chunk.js.map": "/TrustVault/static/js/453.0ab489a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36184791.css",
-    "static/js/main.bc73f3d2.js"
+    "static/css/main.7de8be3e.css",
+    "static/js/main.c69f0113.js"
   ]
 }
