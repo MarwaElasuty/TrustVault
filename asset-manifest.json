@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TrustVault/static/css/main.7b612309.css",
-    "main.js": "/TrustVault/static/js/main.3d472727.js",
+    "main.css": "/TrustVault/static/css/main.e3e244e4.css",
+    "main.js": "/TrustVault/static/js/main.ee387402.js",
     "static/js/453.0ab489a9.chunk.js": "/TrustVault/static/js/453.0ab489a9.chunk.js",
     "static/media/download-app.svg": "/TrustVault/static/media/download-app.4b01f6dbf388d6aea5b935129e90d1f4.svg",
     "static/media/download.svg": "/TrustVault/static/media/download.7633be72af7a28e4924ad836bc42ecdd.svg",
@@ -24,17 +24,21 @@
     "static/media/feature1.svg": "/TrustVault/static/media/feature1.56e9f7bb6fa9b75dbce16db1d8855486.svg",
     "static/media/feature3.svg": "/TrustVault/static/media/feature3.bca06b6e8beb32601c7a363bdc5670d9.svg",
     "static/media/IOS.svg": "/TrustVault/static/media/IOS.76171126339ac5a37fd299c5bd1ce0cf.svg",
+    "static/media/buttonBlur.svg": "/TrustVault/static/media/buttonBlur.1e2a20d6f1d1608260256a30574ca82c.svg",
     "static/media/whatsapp.svg": "/TrustVault/static/media/whatsapp.81052d3c7104654ac700c38c42bce134.svg",
-    "static/media/why-choose-line.svg": "/TrustVault/static/media/why-choose-line.6bd145fa1d0db46ae325.svg",
+    "static/media/apple.svg": "/TrustVault/static/media/apple.b4bb438b955edf3f5833865d904d8729.svg",
     "static/media/main-bg.svg": "/TrustVault/static/media/main-bg.18ac7bc30fdbd127b170.svg",
+    "static/media/googlePlay.svg": "/TrustVault/static/media/googlePlay.9f27d23eada196461f6dfcf6adff869f.svg",
+    "static/media/downloadBtnBorder.svg": "/TrustVault/static/media/downloadBtnBorder.f9c6e13c8a8ac9424bc1b98f1bc21f3f.svg",
     "index.html": "/TrustVault/index.html",
+    "static/media/full-screen-shadow.svg": "/TrustVault/static/media/full-screen-shadow.5902039a972a62322712.svg",
     "static/media/benefit-shadow.svg": "/TrustVault/static/media/benefit-shadow.ab3a0874c4ff6697f8a2.svg",
-    "main.7b612309.css.map": "/TrustVault/static/css/main.7b612309.css.map",
-    "main.3d472727.js.map": "/TrustVault/static/js/main.3d472727.js.map",
+    "main.e3e244e4.css.map": "/TrustVault/static/css/main.e3e244e4.css.map",
+    "main.ee387402.js.map": "/TrustVault/static/js/main.ee387402.js.map",
     "453.0ab489a9.chunk.js.map": "/TrustVault/static/js/453.0ab489a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b612309.css",
-    "static/js/main.3d472727.js"
+    "static/css/main.e3e244e4.css",
+    "static/js/main.ee387402.js"
   ]
 }
