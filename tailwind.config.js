@@ -11,7 +11,9 @@ module.exports = {
         'crypto': "url('./images/crypto-bg.png')",
         'why-choose-line': "url('./images/why-choose-line.svg')",
         'main-bg': "url('./images/main-bg.svg')",
-        "benefit-shadow": "url('./images/benefit-shadow.svg')"
+        "benefit-shadow": "url('./images/benefit-shadow.svg')",
+        "full-screen-shadow": "url('./images/full-screen-shadow.svg')",
+        "safseed-shadow": "url('./images/safseed-shadow.svg')",
       },
       borderRadius: {
         'custom': '50px', // Custom value

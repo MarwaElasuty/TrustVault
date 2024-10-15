@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './Header';
 import nextLevelImage from './images/main-mobiles.png';
 import trustLogo from './images/trustvault.svg';
 import feature1 from './images/feature1.svg';
@@ -19,72 +20,77 @@ import blockchain4 from './images/blockchain4.svg';
 import benefit1 from './images/benefit1.svg';
 import benefit2 from './images/benefit2.svg';
 import benefit3 from './images/benefit3.svg';
+import buttonBlur from './images/buttonBlur.svg';
+import downloadBtnBorder from './images/downloadBtnBorder.svg';
+import googlePlay from './images/googlePlay.svg';
+import apple from './images/apple.svg';
+
+
+
 
 
 
 
 function App() {
   return (
+    
     <div className="min-h-screen flex flex-col items-center justify-center">
-      <header className='w-full flex justify-evenly'>
-        <div className='flex gap-x-10'>
-          <img src={trustLogo}></img>
-        </div>
-        <div className='flex text-white items-center gap-x-7'>
-          <ul className='flex items-center gap-x-10 text-lg'>
-            <li>Home</li>
-            <li>SafeSend</li>
-            <li>Press & Partners</li>
-            <li>Blog</li>
-          </ul>
-          <div className='flex gap-x-7'>
-            <button className='border-2 border-zinc-900 rounded-3xl px-8 py-3'>Download</button>
-            <button>Get in touch</button>
-          </div>
-
-        </div>
-      </header>
+     <Header />
       {/* Hero Section */}
-      <section className="w-full bg-main-bg min-h-screen bg-cover bg-no-repeat" style={{
-    backgroundPosition: 'right top', // Position the background in the top-right corner
-  }}>
-      <section className="w-full bg-next-level bg-contain bg-no-repeat w-2/4 -mt-20 font-bold text-white py-20 text-center flex flex-col items-center justify-center">
+      <section className="w-full bg-main-bg min-h-screen bg-cover bg-no-repeat">
+      <section className="w-full bg-next-level bg-contain bg-no-repeat w-2/4 -mt-15 font-bold text-white py-14 text-center flex flex-col items-center justify-center">
         <div className='main-heading-container relative mb-7'>
           <h1 className="text-8xl font-bold"><span>next</span><span className='text-lime-400'>level</span></h1>
           <p className="text-neutral-200 text-lg text-xl font-light">advanced self custody technology</p>
         </div>
         <img src={nextLevelImage}></img>
       </section>
-      </section>
+     
 
    
 
 
       {/* Features Section */}
-      <section className="w-full py-16 px-4 text-gray-800">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
-          <div className="py-6 px-6 border rounded-3xl shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900">
-            <img src={feature1} className='w-15 py-6'></img>
-            <h2 className="text-2xl font-semibold mb-3">Multi-Signature Technology</h2>
-            <h4 className="font-light text-lg italic">An additional layer of security</h4>
-            <p className="mt-4 md:text-md lg:text-lg text-stone-300 font-light">Require multiple signatures for transactions, ensuring enhanced protection</p>
-          </div>
-          <div className="py-6 bg-middle-feature bg-contain bg-no-repeat px-6 border rounded-3xl shadow-md">
-            <img src={feature2} className='w-15 py-6'></img>
-            <h2 className="text-2xl font-semibold mb-3">Self-Custody</h2>
-            <h4 className="font-light text-lg italic">Your keys, your crypto</h4>
-            <p className="mt-4 md:text-md lg:text-lg text-stone-300 font-light">Store your crypto securely, with full control over your private keys</p>
-          </div>
-          <div className="py-6 px-6 border rounded-3xl shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900 ">
-            <img src={feature3} className='w-15 py-6'></img>
-            <h2 className="text-2xl font-semibold mb-3">Buy, Swap, Send and Store</h2>
-            <h4 className="font-light text-lg italic">Easily manage your crypto portfolio</h4>
-            <p className="mt-4 md:text-md lg:text-lg text-stone-300 font-light">Require multiple signatures for transactions, ensuring enhanced protection</p>
-          </div>
-        </div>
+      <section className="w-full px-4 text-gray-800 mb-16">
+  <h1 className='text-center text-4xl font-extrabold text-white mt-4 mb-16'>Key Features</h1>
+  <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
+
+    {/* First Card */}
+    <div className="px-6 border rounded-3xl shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900 min-h-[150px]">
+      <img src={feature1} className='w-15 py-4'></img>
+      <h2 className="text-2xl font-semibold mb-2">Multi-Signature Technology</h2>
+      <h4 className="font-light text-lg italic">An additional layer of security</h4>
+      <p className="mt-2 md:text-sm lg:text-md text-stone-300 font-light">
+        Require multiple signatures for transactions, ensuring enhanced protection.
+      </p>
+    </div>
+
+    {/* Second Card */}
+    <div className="py-6 bg-middle-feature bg-contain bg-no-repeat px-6 border rounded-3xl shadow-md min-h-[150px]">
+      <img src={feature2} className='w-15 py-4'></img>
+      <h2 className="text-2xl font-semibold mb-2">Self-Custody</h2>
+      <h4 className="font-light text-lg italic">Your keys, your crypto</h4>
+      <p className="mt-2 md:text-sm lg:text-md text-stone-300 font-light">
+        Store your crypto securely, with full control over your private keys.
+      </p>
+    </div>
+
+    {/* Third Card */}
+    <div className="py-6 px-6 border rounded-3xl shadow-md bg-gradient-to-t from-neutral-950 to-zinc-900 min-h-[150px]">
+      <img src={feature3} className='w-15 py-4'></img>
+      <h2 className="text-2xl font-semibold mb-2">Buy, Swap, Send and Store</h2>
+      <h4 className="font-light text-lg italic">Easily manage your crypto portfolio</h4>
+      <p className="mt-2 md:text-sm lg:text-md text-stone-300 font-light">
+        Easily manage your transactions and protect your assets.
+      </p>
+    </div>
+
+  </div>
+</section>
+
       </section>
 
-      <section className="w-full text-white">
+      <section className="w-full text-white mt-14">
   <div className="mx-auto text-center">
       <h1 className='text-3xl font-semibold py-3 relative z-10' style={{
       background: "linear-gradient(to left, #7EBF02, #2F5FE5)", 
@@ -97,7 +103,7 @@ function App() {
       </div>
 </section>
 
-<section className="w-full py-16 px-4 text-gray-800">
+<section className="w-full py-16 mb-14 mt-16 px-4 text-gray-800 bg-full-screen-shadow bg-contain bg-no-repeat" style={{backgroundPosition: '105% 65%', backgroundSize: '40%'}}>
   <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between text-white">
     <div className="mb-8 md:mb-0 md:w-1/3"> {/* Adjusted width for the image div */}
       <img src={whatis} alt="What is SAFESEND?" className="w-3/4 h-auto mx-auto" /> {/* Made the image smaller */}
@@ -107,16 +113,33 @@ function App() {
       <p className="text-base font-medium mt-4">
         Experience a new level of security with SafeSend! Before sending large amounts, SafeSend kicks off the process with a transfer, verified by the recipient through a one-time password (OTP). This smart feature ensures your funds land exactly where you want them, eliminating the risk of crypto clipping or sending to the wrong address. Once stage 1 of the transfer is confirmed, the full amount is released with confidence. Say goodbye to transaction anxiety and hello to seamless, secure transfers with SafeSend!
       </p>
-      <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition">Read More</button>
+
+<div className='relative'>
+  <img src={buttonBlur} className='absolute -bottom-5 left-5'></img>
+<button className="relative z-index-10 bg-gradient-to-t from-neutral-950 to-zinc-900 border-2 border-indigo-500 text-white py-3 px-7 rounded-full hover:bg-blue-600 transition mt-6">
+    Read More
+  </button>
+</div>
     </div>
   </div>
 </section>
 
 
 
-      <section className="w-full py-16 px-4 text-gray-800 mt-12">
+<section className="w-full py-16 px-4 text-gray-800 mt-12 relative">
+  {/* Transparent Div with Solid Black Shadow at the Bottom */}
+  <div 
+    className="absolute bottom-0 left-0 w-full"
+    style={{
+      height: "50px", // Height of the shadow
+      background: "linear-gradient(to top, black 0%, transparent 100%)", // Solid black shadow
+      zIndex: 0 // Ensure this is below the main content
+    }}>
+  </div>
+
+  {/* Main Content Div */}
   <div
-    className="max-w-7xl mx-auto bg-gray-800 flex flex-col md:flex-row justify-evenly md:space-x-8 space-y-6 md:space-y-0 rounded-lg"
+    className="max-w-7xl mx-auto bg-gray-800 flex flex-col md:flex-row justify-evenly md:space-x-8 space-y-6 md:space-y-0 rounded-lg relative z-10"
     style={{
       background: "linear-gradient(to top, #121318, #1B1E23)",
       borderTop: "1px solid white",
@@ -127,22 +150,43 @@ function App() {
   >
     <div className="flex items-center space-x-4 text-white">
       <div>
-        <h3 className="text-xl font-semibold mb-2">Download Our App</h3>
+        <h3 className="text-3xl font-semibold mt-4 mb-4">Download Our App</h3>
 
-        {/* Two buttons with good padding */}
-        <div className="flex space-x-4 mt-4">
-          <button className="bg-white text-gray-800 px-4 py-2 rounded-md">Button 1</button>
-          <button className="bg-white text-gray-800 px-4 py-2 rounded-md">Button 2</button>
+        {/* Two buttons with consistent height and padding */}
+        <div className="flex space-x-4 mt-4 gap-2">
+          <div className='bg-gradient-to-t from-neutral-950 to-gray-800 flex items-center gap-4 border-2 border-indigo-500 px-8 py-2 rounded-full'>
+           <div>
+              <img src={googlePlay} alt='google-play'></img>
+           </div>
+           <div>
+              <p className='text-sm'>GET IT ON</p>
+              <h3 className='text-lg'>Google Play</h3>
+           </div>
+          </div>
+          <div className='bg-gradient-to-t from-neutral-950 to-gray-800 flex items-center gap-4 border-2 border-indigo-500 px-8 py-2 rounded-full'>
+           <div>
+              <img src={apple} alt='apple'></img>
+           </div>
+           <div>
+              <p className='text-sm'>Download on the</p>
+              <h3 className='text-lg'>App Store</h3>
+           </div>
+          </div>
         </div>
       </div>
     </div>
     <div className="flex items-start space-x-4">
-      <div className='relative'>
-        <img src={downloadApp} className='mt-[-150px]' alt="Download App" />
+      <div className="relative">
+        <img src={downloadApp} className="mt-[-150px]" alt="Download App" />
       </div>
     </div>
   </div>
 </section>
+
+
+
+
+
 
 
 <section className="w-full py-16 px-4">
@@ -152,7 +196,7 @@ function App() {
     <p className='font-normal text-stone-300 text-center mb-8'>Our platform supports a wide range of blockchains, cryptocurrencies, and NFTs across various protocols. Easily manage your digital assets and collectibles, all in one secure and versatile app.</p>
     <div className="grid grid-cols-1 md:grid-cols-10 gap-6 text-center"> {/* Change to 10 columns */}
       {/* First Card (Larger) */}
-      <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-xl p-6 flex flex-col justify-between text-white md:col-span-4"> {/* Spans 4 columns */}
+      <div className="bg-gradient-to-t from-neutral-950 to-zinc-800 rounded-xl p-6 flex flex-col justify-between text-white md:col-span-4"> {/* Spans 4 columns */}
         <div>
           <h3 className="text-xl font-semibold mb-2">Supported cryptocurrencies</h3>
           <p className="text-base mb-6">
@@ -163,7 +207,7 @@ function App() {
       </div>
 
       {/* Other Three Cards */}
-      <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
+      <div className="bg-gradient-to-t from-neutral-950 to-zinc-800 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
         <div>
           <h3 className="text-xl font-semibold mb-2">Supported token standards</h3>
           <p className="text-base mb-6">Brief description of feature 1.</p>
@@ -171,7 +215,7 @@ function App() {
         <img src={blockchain2} alt="Feature 1" className='1/3 mx-auto' />
       </div>
 
-      <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
+      <div className="bg-gradient-to-t from-neutral-950 to-zinc-800 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
         <div>
           <h3 className="text-xl font-semibold mb-2">Supported NFTs</h3>
           <p className="text-base mb-6">Brief description of feature 2.</p>
@@ -179,7 +223,7 @@ function App() {
         <img src={blockchain3} alt="Feature 2" className='1/3 mx-auto' />
       </div>
 
-      <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
+      <div className="bg-gradient-to-t from-neutral-950 to-zinc-800 rounded-xl px-4 py-6 flex flex-col justify-between text-white md:col-span-2"> {/* Spans 2 columns */}
         <div>
           <h3 className="text-xl font-semibold mb-2">Staking Coming Soon</h3>
           <p className="text-base mb-6">Brief description of feature 3.</p>
@@ -191,7 +235,7 @@ function App() {
 </section>
 
 
-<section className="w-full py-16 px-4">
+<section className="w-full py-16 px-4  bg-full-screen-shadow bg-no-repeat"  style={{backgroundPosition: '130% 60%', backgroundSize: '55%'}}>
   <h1 className='text-5xl text-white mb-6 text-center'>Benefits</h1>
   <div className="max-w-6xl mx-auto bg-gradient-to-t from-neutral-950 to-zinc-900 border border-white border-b-0 rounded-3xl">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-12 text-white">
@@ -223,36 +267,26 @@ function App() {
       </div>
     </div>
   </div>
-</section>
 
 
-
-
-
-
-
-
-
-    
-
-
-<section class="w-full py-16">
+  <section class="w-full py-16 mt-16 bg-full-screen-shadow bg-no-repeat" style={{backgroundPosition: '-65% -60%', backgroundSize: '75%'}}>
+<section class="w-full py-16 mt-16">
 <div className="max-w-6xl mx-auto text-white">
 <h2 class="text-center text-4xl font-bold mb-8">How it Works</h2>
     <div class="flex flex-col md:flex-row justify-evenly md:space-x-8 space-y-6 md:space-y-0">
       <div class="flex flex-col items-center w-full md:w-1/2">
-        <div class="flex items-center space-x-4 mb-6">  
-          <span class="text-9xl font-extrabold text-white">1</span>
-          <div className='bg-gray-800 rounded-3xl py-8 px-6 w-full min-h-44'>  
+        <div class="flex items-center space-x-4 mb-6 relative">  
+          <span class="text-10xl font-extrabold text-white relative left-9">1</span>
+          <div className='bg-gray-800 rounded-3xl py-8 px-6 w-full min-h-44 relative z-index-3'>  
             <h3 class="text-2xl font-semibold mb-2">Secure Setup</h3> 
             <p class="text-gray-400">Create your multisig wallet by selecting the number of signatures required to approve a transaction. Invite trusted parties to join the wallet, each with their own private key securely stored on their device.</p>
           </div>
         </div>
       </div>
       <div class="flex flex-col items-center w-full md:w-1/2">
-        <div class="flex items-center space-x-4 mb-6">  
-          <span class="text-9xl font-extrabold text-green-500">2</span>
-          <div className='bg-gray-800 rounded-3xl py-8 px-6 w-full min-h-44'>  
+        <div class="flex items-center space-x-4 mb-6 relative">  
+          <span class="text-10xl font-extrabold text-green-500 relative left-9">2</span>
+          <div className='bg-gray-800 rounded-3xl py-8 px-6 w-full min-h-44 relative z-index-3'>  
             <h3 class="text-2xl font-semibold mb-2">Approve Transactions</h3>
             <p class="text-gray-400">When a transaction is initiated, it requires approval from the designated number of signers. Once the required signatures are collected, the transaction is securely executed on the blockchain, ensuring maximum security and control.</p>
           </div>
@@ -263,16 +297,24 @@ function App() {
 </section>
 
 
+<section className=" w-full py-16 px-4 text-gray-800">
+ {/*Future of Crypto Management*/}
+ <section
+  className="w-full py-16 mt-16"
+>
+  <div className="max-w-6xl mx-auto text-white">
+    <h1 className="text-5xl mb-4">The Future of</h1>
+    <h2 className="text-4xl">Crypto Management</h2>
+  </div>
+</section>
+
+</section>
+</section>
 
 
-   
 
-
-
-
-
-      {/*Why Choose*/}
-      <section className="bg-why-choose-line w-full py-16 px-4 text-gray-800">
+{/*Why Choose*/}
+<section className="w-full py-16 px-4 text-gray-800">
         <div className="max-w-5xl mx-auto py-12 px-12  gap-8 text-white rounded-custom bg-gradient-to-t from-zinc-900 to-neutral-900">
           <div className="md:col-span-2 max-w-3xl mx-auto">
             <h2 className="text-3xl">Why Choose Our Multisig Wallet?</h2>
@@ -306,6 +348,12 @@ function App() {
           </div>
         </div>
       </section>
+      </section>
+
+
+
+
+      
 
 
       {/* Download */}
@@ -330,7 +378,8 @@ function App() {
      
 
       {/* FAQ */}
-      <section className="w-full py-16 px-4 text-gray-800">
+      <section class="w-full py-16 mt-16 bg-full-screen-shadow bg-no-repeat" style={{backgroundPosition: '-80% 80%', backgroundSize: '70%'}}>
+      <section className="w-full py-16 px-4 text-gray-800 bg-full-screen-shadow bg-no-repeat" style={{backgroundPosition: '180% -120%', backgroundSize: '65%'}}>
         <div className="max-w-6xl mx-auto  gap-8 text-white">
           <h1 className='text-5xl text-white'>FAQ</h1>
           <section class="w-full py-16 text-gray-800">
@@ -478,11 +527,14 @@ function App() {
 
         </div>
       </section>
+      </section>
+      
+      
 
-
+      <section className="w-full py-16 px-4 text-center bg-full-screen-shadow bg-no-repeat" style={{backgroundPosition: '180% 0%', backgroundSize: '65%'}}>
       <section className="w-full py-16 px-4 text-center">
       <div className="max-w-7xl mx-auto  gap-8">
-      <div class="relative bg-white p-4 rounded-lg overflow-hidden">
+      <div class="relative bg-white p-4 rounded-lg">
   <div class="absolute inset-0 rounded-lg border-l-4 border-t-4 border-r-4 border-transparent">
     <div class="absolute inset-0 rounded-lg border-l-4 border-t-4 border-r-4 border-transparent border-image: bg-gradient-to-b from-[#1B1E23] to-[#040404] 1; border-width: 4px;"></div>
   </div>
@@ -490,8 +542,8 @@ function App() {
     <h2 class="text-5xl font-semibold text-white">Let's Talk</h2>
     <p className='text-stone-300 mt-4'>This div has borders on the left, right, and top with a radial gradient effect.</p>
   </div>
-</div>
-<div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+  <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
         {/* Card 1 */}
         <div className="bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center">
           <img src={whatsapp} alt="Icon 1" className="mb-4" />
@@ -517,13 +569,17 @@ function App() {
         </div>
       </div>
 </div>
+
+</div>
    
 </section>
 
-<div className="w-full py-16 px-4 text-center">
-  <div className="max-w-6xl mx-auto space-y-16">
+
+<section className="w-full py-16 px-4 text-center">
+<div className="w-full py-16 px-4 text-center" >
+  <div className="max-w-6xl mx-auto space-y-16 " >
     {/* First Section */}
-    <div className="flex flex-col md:flex-row items-start justify-between">
+    <div className="flex flex-col md:flex-row items-start justify-between" >
       {/* Left Side: Heading and Paragraph */}
       <div className="md:w-1/3 mb-8 md:mb-0">
         <h2 className="text-4xl font-bold mb-4 text-white text-left">Platform Support</h2>
@@ -567,13 +623,14 @@ function App() {
 
     </div>
 
-    {/* Footer Section */}
-   
   </div>
 </div>
+</section>
 
 
-<div className="max-w-7xl py-16 px-4 text-center">
+    {/* Footer Section */}
+
+<div className="max-w-7xl mx-auto py-16 px-4 text-center">
 <footer className="flex flex-col md:flex-row justify-between items-start text-left text-white py-6 rounded-lg">
       {/* Left Side: Logo and Text */}
       <div className="md:w-1/2 mb-4 md:mb-0 text-stone-300">
@@ -638,6 +695,7 @@ function App() {
     </footer>
 
     </div>
+    </section>
     </div>
   );
 }
