@@ -14,6 +14,7 @@ module.exports = {
         "benefit-shadow": "url('./images/benefit-shadow.svg')",
         "full-screen-shadow": "url('./images/full-screen-shadow.svg')",
         "safseed-shadow": "url('./images/safseed-shadow.svg')",
+        "zig-bg": "url('./images/zig-bg.svg')",
       },
       borderRadius: {
         'custom': '50px', // Custom value
