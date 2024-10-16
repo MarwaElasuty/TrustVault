@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TrustVault/static/css/main.7de8be3e.css",
-    "main.js": "/TrustVault/static/js/main.c69f0113.js",
+    "main.css": "/TrustVault/static/css/main.85c55187.css",
+    "main.js": "/TrustVault/static/js/main.f00002d4.js",
     "static/js/453.0ab489a9.chunk.js": "/TrustVault/static/js/453.0ab489a9.chunk.js",
     "static/media/download-app.svg": "/TrustVault/static/media/download-app.4b01f6dbf388d6aea5b935129e90d1f4.svg",
     "static/media/download.svg": "/TrustVault/static/media/download.7633be72af7a28e4924ad836bc42ecdd.svg",
@@ -24,6 +24,7 @@
     "static/media/blockchain3.svg": "/TrustVault/static/media/blockchain3.c8560afcb011bb16c3799917a56eec88.svg",
     "static/media/crypto5.svg": "/TrustVault/static/media/crypto5.228fc4fdd4176517eb7fb98cdf868a1f.svg",
     "static/media/blockchain2.svg": "/TrustVault/static/media/blockchain2.f96efebd8654fc2ad0fb2229bdac4298.svg",
+    "static/media/linkedin.svg": "/TrustVault/static/media/linkedin.bacf3bbe2d55c8cad23a3c5a38cff323.svg",
     "static/media/middle-feature.png": "/TrustVault/static/media/middle-feature.f1f02384cf039ddf397a.png",
     "static/media/blockchain4.svg": "/TrustVault/static/media/blockchain4.445a1465ea9844344392a84cbd1d8457.svg",
     "static/media/feature2.svg": "/TrustVault/static/media/feature2.7008acb2d30dbc7cf66d108cc33b7a55.svg",
@@ -32,22 +33,31 @@
     "static/media/IOS.svg": "/TrustVault/static/media/IOS.76171126339ac5a37fd299c5bd1ce0cf.svg",
     "static/media/buttonBlur.svg": "/TrustVault/static/media/buttonBlur.1e2a20d6f1d1608260256a30574ca82c.svg",
     "static/media/whatsapp.svg": "/TrustVault/static/media/whatsapp.81052d3c7104654ac700c38c42bce134.svg",
+    "static/media/footerGithub.svg": "/TrustVault/static/media/footerGithub.5e32481635d490a9a59ded7e459af50d.svg",
+    "static/media/footerLinkedIn.svg": "/TrustVault/static/media/footerLinkedIn.3be908508dee83a02c0c56f90aef3be3.svg",
     "static/media/apple.svg": "/TrustVault/static/media/apple.b4bb438b955edf3f5833865d904d8729.svg",
+    "static/media/footerTel.svg": "/TrustVault/static/media/footerTel.0ab6d6aaf07fcffa396dc5dfe661ede2.svg",
+    "static/media/telegram.svg": "/TrustVault/static/media/telegram.0f18302aa4a2da6b99eaebf3185a7fde.svg",
+    "index.html": "/TrustVault/index.html",
+    "static/media/footerMedium.svg": "/TrustVault/static/media/footerMedium.ef6c7afddcdb54db83f22dce6486cca7.svg",
     "static/media/why-choose-line.svg": "/TrustVault/static/media/why-choose-line.6bd145fa1d0db46ae325.svg",
     "static/media/main-bg.svg": "/TrustVault/static/media/main-bg.18ac7bc30fdbd127b170.svg",
     "static/media/googlePlay.svg": "/TrustVault/static/media/googlePlay.9f27d23eada196461f6dfcf6adff869f.svg",
+    "static/media/footerFacebook.svg": "/TrustVault/static/media/footerFacebook.70b29fa914afc4eb2f33bc253a102118.svg",
+    "static/media/email.svg": "/TrustVault/static/media/email.403ba64f0659bd5fcb254a0025445c31.svg",
     "static/media/downloadBtnBorder.svg": "/TrustVault/static/media/downloadBtnBorder.f9c6e13c8a8ac9424bc1b98f1bc21f3f.svg",
-    "index.html": "/TrustVault/index.html",
     "static/media/full-screen-shadow.svg": "/TrustVault/static/media/full-screen-shadow.5902039a972a62322712.svg",
+    "static/media/letsTalk-shadow.svg": "/TrustVault/static/media/letsTalk-shadow.9db72c400a7bcdc0baf1c9e59628f35a.svg",
     "static/media/linear-line.svg": "/TrustVault/static/media/linear-line.bab3ef687d8e87e33f98323aa641856f.svg",
     "static/media/benefit-shadow.svg": "/TrustVault/static/media/benefit-shadow.ab3a0874c4ff6697f8a2.svg",
     "static/media/download-app-shadow.svg": "/TrustVault/static/media/download-app-shadow.775fca59be89a5bb1736fdc37e32f452.svg",
-    "main.7de8be3e.css.map": "/TrustVault/static/css/main.7de8be3e.css.map",
-    "main.c69f0113.js.map": "/TrustVault/static/js/main.c69f0113.js.map",
+    "static/media/footerTwitter.svg": "/TrustVault/static/media/footerTwitter.2835b06668cbbfdf46601819be16efa1.svg",
+    "main.85c55187.css.map": "/TrustVault/static/css/main.85c55187.css.map",
+    "main.f00002d4.js.map": "/TrustVault/static/js/main.f00002d4.js.map",
     "453.0ab489a9.chunk.js.map": "/TrustVault/static/js/453.0ab489a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7de8be3e.css",
-    "static/js/main.c69f0113.js"
+    "static/css/main.85c55187.css",
+    "static/js/main.f00002d4.js"
   ]
 }
