@@ -16,6 +16,9 @@ import whychoose1 from './images/why-choose1.svg';
 import whychoose2 from './images/why-choose2.svg';
 import download from './images/download.svg';
 import whatsapp from './images/whatsapp.svg';
+import telegram from './images/telegram.svg';
+import linkedin from './images/linkedin.svg';
+import email from './images/email.svg';
 import IOS from './images/IOS.svg';
 import downloadApp from './images/download-app.svg';
 import blockchain1 from './images/blockchain1.svg';
@@ -32,6 +35,13 @@ import apple from './images/apple.svg';
 import downloadblackShadow from './images/download-app-shadow.svg';
 import zigBg from './images/zig-bg.svg'
 import linearLine from './images/linear-line.svg'
+import letsTalk from './images/letsTalk-shadow.svg'
+import footerTel from './images/footerTel.svg'
+import footerTwitter from './images/footerTwitter.svg'
+import footerLinkedIn from './images/footerLinkedIn.svg'
+import footerMedium from './images/footerMedium.svg'
+import footerFacebook from './images/footerFacebook.svg'
+import footerGithub from './images/footerGithub.svg'
 
 
 
@@ -212,7 +222,7 @@ function App() {
 
       <section className="w-full py-16 px-4 bg-full-screen-shadow bg-no-repeat" style={{ backgroundPosition: '-60% 60%', backgroundSize: '70%' }}>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-medium text-center mb-4 text-white">Supported Blockchains and Currencies</h2>
+          <h2 className="text-4xl font-extrabold text-center mb-4 text-white">Supported Blockchains and Currencies</h2>
           <h3 className="text-xl font-medium text-center mb-4 text-white">Comprehensive Support for All Your Digital Assets</h3>
           <p className='font-normal text-stone-300 text-center mb-8'>Our platform supports a wide range of blockchains, cryptocurrencies, and NFTs across various protocols. Easily manage your digital assets and collectibles, all in one secure and versatile app.</p>
           <div className="grid grid-cols-1 md:grid-cols-10 gap-6 text-center"> {/* Change to 10 columns */}
@@ -454,7 +464,7 @@ function App() {
         <section className="w-full py-16 px-4 text-gray-800 bg-why-choose-line">
           <div className="max-w-5xl mx-auto py-12 px-12  gap-8 text-white rounded-custom bg-gradient-to-t from-zinc-900 to-neutral-900">
             <div className="md:col-span-2 max-w-3xl mx-auto">
-              <h2 className="text-4xl">Why Choose Our Multisig Wallet?</h2>
+              <h2 className="text-4xl font-extrabold">Why Choose Our Multisig Wallet?</h2>
               <h3 className="font-light text-stone-300 text-lg">
                 Unmatched Security and Total Control for Your Digital Assets
               </h3>
@@ -482,7 +492,7 @@ function App() {
                   <div className="flex-1">
                     <h2 className="text-2xl font-bold mb-2">Full Control and Flexibility</h2>
                     <p className="text-stone-300 mb-3">
-                    With our wallet, you maintain full control over your assets. The ability to customize the number of required signers gives you the flexibility to tailor security to your specific needs, whether you're managing personal funds, corporate assets, or a joint account.                    </p>
+                      With our wallet, you maintain full control over your assets. The ability to customize the number of required signers gives you the flexibility to tailor security to your specific needs, whether you're managing personal funds, corporate assets, or a joint account.                    </p>
                     <div className='relative'>
                       <img src={buttonBlur} className='absolute -bottom-5 left-5'></img>
                       <button className="relative z-index-10 bg-gradient-to-t from-neutral-950 to-zinc-900 border-2 border-indigo-500 text-white py-3 px-7 rounded-full hover:bg-blue-600 transition mt-2">
@@ -506,203 +516,400 @@ function App() {
       {/* Download */}
 
       <section className="w-full py-16 text-gray-800">
-  <div className="w-full mx-auto gap-8 text-white relative bg-gradient-to-t from-zinc-900 to-neutral-900 px-4 sm:px-8"> {/* Added padding */}
-    <div className="max-w-6xl mx-auto relative">
-      
-      <img src={linearLine} className="absolute top-0 left-0"></img>
-      
-      <div className="flex flex-col md:flex-row items-center md:space-x-4 py-16 rounded-lg sm:gap-10"> {/* Adjust gap on smaller screens */}
-        <div className="flex-1">
-          <h2 className="text-4xl font-extrabold mb-6">Download our free safety guide</h2>
-          <h3 className="text-xl font-bold mb-2">Protect Your Digital Assets with Confidence</h3>
-          <p className="font-light mb-4">
-            Get instant access to our comprehensive Safety Guide and learn essential tips for securing your online presence. From password management to avoiding scams, this guide provides actionable advice to help you stay safe in the digital world. Don't leave your security to chance—download your free copy today!
-          </p>
-          
-          <div className="relative">
-            <img src={buttonBlur} className="absolute -bottom-4 left-24"></img>
-            <button className="relative z-10 bg-gradient-to-t from-neutral-950 to-zinc-900 border-2 border-indigo-500 text-white py-3 px-12 rounded-full hover:bg-blue-600 transition mt-2">
-              Download Guide
-            </button>
+        <div className="w-full mx-auto gap-8 text-white relative bg-gradient-to-t from-zinc-900 to-neutral-900 px-4 sm:px-8"> {/* Added padding */}
+          <div className="max-w-6xl mx-auto relative">
+
+            <img src={linearLine} className="absolute top-0 left-0"></img>
+
+            <div className="flex flex-col md:flex-row items-center md:space-x-4 py-16 rounded-lg sm:gap-10"> {/* Adjust gap on smaller screens */}
+              <div className="flex-1">
+                <h2 className="text-4xl font-extrabold mb-6">Download our free safety guide</h2>
+                <h3 className="text-xl font-bold mb-2">Protect Your Digital Assets with Confidence</h3>
+                <p className="font-light mb-4">
+                  Get instant access to our comprehensive Safety Guide and learn essential tips for securing your online presence. From password management to avoiding scams, this guide provides actionable advice to help you stay safe in the digital world. Don't leave your security to chance—download your free copy today!
+                </p>
+
+                <div className="relative">
+                  <img src={buttonBlur} className="absolute -bottom-4 left-24"></img>
+                  <button className="relative z-10 bg-gradient-to-t from-neutral-950 to-zinc-900 border-2 border-indigo-500 text-white py-3 px-12 rounded-full hover:bg-blue-600 transition mt-2">
+                    Download Guide
+                  </button>
+                </div>
+              </div>
+              <img src={download} alt="Second Image" className="w-full md:w-1/2 rounded-lg" />
+            </div>
+
+            <img src={linearLine} className="absolute right-0 bottom-0"></img>
           </div>
         </div>
-        <img src={download} alt="Second Image" className="w-full md:w-1/2 rounded-lg" />
-      </div>
-      
-      <img src={linearLine} className="absolute right-0 bottom-0"></img>
-    </div>
-  </div>
-</section>
+      </section>
+
+
+      {/* FAQ Section */}
+      <section className="w-full py-16 mt-16">
+        <div className="w-full py-16 px-4 text-gray-800">
+          <div className="max-w-6xl mx-auto gap-8 text-white">
+            <h1 className="text-5xl text-white mb-8">FAQ</h1>
+
+            {/* FAQ Item 1 */}
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            {/* FAQ Item 1 Answer */}
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <p className="text-stone-300">A multisig (multi-signature) crypto wallet is a digital wallet that requires multiple private keys to authorize a transaction. This enhances security by ensuring that more than one person or device must approve a transaction before it is executed. For instance, in a 2-of-3 multisig wallet, two out of three designated private keys must approve a transaction.</p>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center py-6 rounded-lg">
+              <div className="flex space-x-4">
+                <span className="text-custom-xl font-semibold text-blue-600">01</span>
+                <span className="text-custom-xl font-semibold text-blue-600">What is a multisig crypto wallet?</span>
+              </div>
+              <div className="flex items-center">
+                <svg className="w-8 h-8 text-blue-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 3a7 7 0 100 14 7 7 0 000-14zm0 12a5 5 0 110-10 5 5 0 010 10z" />
+                  <path d="M10 8a2 2 0 100 4 2 2 0 000-4z" />
+                </svg>
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </section>
+
 
 
 
 
       <section className="w-full py-16 px-4 text-center bg-full-screen-shadow bg-no-repeat" style={{ backgroundPosition: '180% 0%', backgroundSize: '65%' }}>
         <section className="w-full py-16 px-4 text-center">
-          <div className="max-w-7xl mx-auto  gap-8">
-            <div class="relative bg-white p-4 rounded-lg">
-              <div class="absolute inset-0 rounded-lg border-l-4 border-t-4 border-r-4 border-transparent">
-                <div class="absolute inset-0 rounded-lg border-l-4 border-t-4 border-r-4 border-transparent border-image: bg-gradient-to-b from-[#1B1E23] to-[#040404] 1; border-width: 4px;"></div>
-              </div>
-              <div class="relative z-10 mt-4 mb-3">
-                <h2 class="text-5xl font-semibold text-white">Let's Talk</h2>
-                <p className='text-stone-300 mt-4'>This div has borders on the left, right, and top with a radial gradient effect.</p>
+          <div className="max-w-7xl mx-auto gap-8">
+            <div className="relative p-4 rounded-lg">
+              {/* Let's Talk Image */}
+              <img
+                src={letsTalk}
+                className="absolute top-0 left-1/2 transform -translate-x-1/2 z-20"
+                alt="Let's Talk"
+              />
+
+              {/* Border and Inner Content */}
+              <div className="py-8 relative z-10">
+                <h2 className="text-5xl font-extrabold text-white">Let's Talk</h2>
+                <p className='text-stone-300 text-xl mt-4 mb-8'>Begin your journey into the tomorrow of fintech today.</p>
               </div>
 
-              <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+              <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative">
                 {/* Card 1 */}
-                <div className="bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center">
-                  <img src={whatsapp} alt="Icon 1" className="mb-4" />
-                  <h3 className="text-xl font-semibold">Telegram</h3>
+                <div className="relative bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center py-12">
+                  <div className="absolute inset-0 rounded-lg white-linear-border">
+                  </div>
+                  <img src={whatsapp} alt="WhatsApp" className="mb-4 z-10 w-14 h-14 object-contain" />
+                  <h3 className="text-xl font-semibold z-10">WhatsApp</h3>
                 </div>
 
                 {/* Card 2 */}
-                <div className="bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center">
-                  <img src={whatsapp} alt="Icon 1" className="mb-4" />
-                  <h3 className="text-xl font-semibold">Telegram</h3>
+                <div className="relative bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center py-12">
+                  <div className="absolute inset-0 rounded-lg white-linear-border">
+                  </div>
+                  <img src={telegram} alt="Telegram" className="mb-4 z-10 w-14 h-14 object-contain" />
+                  <h3 className="text-xl font-semibold z-10">Telegram</h3>
                 </div>
 
                 {/* Card 3 */}
-                <div className="bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center">
-                  <img src={whatsapp} alt="Icon 1" className="mb-4" />
-                  <h3 className="text-xl font-semibold">Telegram</h3>
+                <div className="relative bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center py-12">
+                  <div className="absolute inset-0 rounded-lg white-linear-border">
+                  </div>
+                  <img src={linkedin} alt="LinkedIn" className="mb-4 z-10 w-14 h-14 object-contain" />
+                  <h3 className="text-xl font-semibold z-10">LinkedIn</h3>
                 </div>
 
                 {/* Card 4 */}
-                <div className="bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center">
-                  <img src={whatsapp} alt="Icon 1" className="mb-4" />
-                  <h3 className="text-xl font-semibold">Telegram</h3>
+                <div className="relative bg-gradient-to-t from-zinc-900 to-neutral-900 text-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center py-12">
+                  <div className="absolute inset-0 rounded-lg white-linear-border">
+                  </div>
+                  <img src={email} alt="Email" className="mb-4 z-10 w-14 h-14 object-contain" />
+                  <h3 className="text-xl font-semibold z-10">Email</h3>
                 </div>
               </div>
             </div>
-
           </div>
-
         </section>
+      </section>
 
+      <section className="bg-next-level bg-cover bg-no-repeat py-14" style={{ backgroundPosition: '-50% 5%', backgroundSize: '75%' }}>
 
-        <section className="w-full py-16 px-4 text-center">
-          <div className="w-full py-16 px-4 text-center" >
-            <div className="max-w-6xl mx-auto space-y-16 " >
-              {/* First Section */}
-              <div className="flex flex-col md:flex-row items-start justify-between" >
-                {/* Left Side: Heading and Paragraph */}
-                <div className="md:w-1/3 mb-8 md:mb-0">
-                  <h2 className="text-4xl font-bold mb-4 text-white text-left">Platform Support</h2>
-                  <p className="text-stone-300 text-left">
-                    This is a paragraph that provides information about the main topic. It describes the content and purpose of the section.
-                  </p>
-                </div>
-
-                {/* Right Side: Small Cards */}
-                <div className="md:w-2/3 flex flex-wrap justify-end gap-4"> {/* Added justify-end */}
-                  {/* Card 1 */}
-                  <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Use flex and adjust width */}
-                    <img src={IOS} alt="Logo" className="mb-2" />
-                  </div>
-
-                  {/* Card 2 */}
-                  <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Use flex and adjust width */}
-                    <img src={IOS} alt="Logo" className="mb-2" />
-                  </div>
-
-                  {/* Card 3 */}
-                  <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Use flex and adjust width */}
-                    <img src={IOS} alt="Logo" className="mb-2" />
-                  </div>
-
-                  {/* Card 4 */}
-                  <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Use flex and adjust width */}
-                    <img src={IOS} alt="Logo" className="mb-2" />
-                  </div>
-
-                  {/* Card 5 */}
-                  <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Use flex and adjust width */}
-                    <img src={IOS} alt="Logo" className="mb-2" />
-                  </div>
-
-                  {/* Card 6 */}
-                  <div className="bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Use flex and adjust width */}
-                    <img src={IOS} alt="Logo" className="mb-2" />
-                  </div>
-                </div>
-
+        <div className="w-full py-16 px-4 text-center">
+          <div className="max-w-6xl mx-auto space-y-16">
+            {/* First Section */}
+            <div className="flex flex-col md:flex-row items-start justify-between">
+              {/* Left Side: Heading and Paragraph */}
+              <div className="md:w-1/3 mb-8 md:mb-0">
+                <h2 className="text-4xl font-bold mb-4 text-white text-left">Platform Support</h2>
+                <p className="text-stone-300 text-left">
+                  Our wallet is available on iOS, Android, and
+                  Desktop, and supports all major coins and tokens.</p>
               </div>
 
+              {/* Right Side: Small Cards */}
+              <div className="md:w-2/3 flex flex-wrap justify-end gap-4"> {/* Added justify-end */}
+                {/* Card 1 */}
+                <div className="relative bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Adjust width */}
+                  <div className='rounded-in-up absolute top-0'></div>
+                  <img src={IOS} alt="Logo" className="mb-2 z-10" />
+                </div>
+
+                {/* Card 2 */}
+                <div className="relative bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Adjust width */}
+                  <div className='rounded-in-down absolute top-0'></div>
+
+                  <img src={IOS} alt="Logo" className="mb-2 z-10" />
+                </div>
+
+                {/* Card 3 */}
+                <div className="relative bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Adjust width */}
+                  <div className='rounded-in-up absolute top-0'></div>
+
+                  <img src={IOS} alt="Logo" className="mb-2 z-10" />
+                </div>
+
+                {/* Card 4 */}
+                <div className="relative bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Adjust width */}
+                  <div className='rounded-in-down absolute top-0'></div>
+
+                  <img src={IOS} alt="Logo" className="mb-2 z-10" />
+                </div>
+
+                {/* Card 5 */}
+                <div className="relative bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Adjust width */}
+                  <div className='rounded-in-up absolute top-0'></div>
+
+                  <img src={IOS} alt="Logo" className="mb-2 z-10" />
+                </div>
+
+                {/* Card 6 */}
+                <div className="relative bg-gradient-to-t from-neutral-950 to-zinc-900 rounded-lg shadow p-4 w-24 flex flex-col items-center mb-4"> {/* Adjust width */}
+                  <div className='rounded-in-down absolute top-0'></div>
+
+                  <img src={IOS} alt="Logo" className="mb-2 z-10" />
+                </div>
+              </div>
+
+
             </div>
+
+            {/* Footer Section */}
+
           </div>
-        </section>
+        </div>
 
-
-        {/* Footer Section */}
-
-        <div className="max-w-7xl mx-auto py-16 px-4 text-center">
+        <div className="max-w-7xl py-16 px-4 text-center">
           <footer className="flex flex-col md:flex-row justify-between items-start text-left text-white py-6 rounded-lg">
             {/* Left Side: Logo and Text */}
             <div className="md:w-1/2 mb-4 md:mb-0 text-stone-300">
               <img src={trustLogo}></img>
-              <p className=" mb-3 mt-3">We are a farsighted team specializing in IT and software development for crypto business. Our company offers turn key solutions with no hassle.</p>
+              <p className=" mb-3 mt-3 max-w-md">We are a farsighted team specializing in IT and software development for crypto business. Our company offers turn key solutions with no hassle.</p>
               <p className='mb-3 mt-3'>Email: info@trustvault.app</p>
               <p className='max-w-lg mb-3 mt-3'>The information provided on this website is for informational purposes only and should not be considered as financial or investment advice. Cryptocurrency transactions carry inherent risks, including the potential loss of funds. While we employ advanced security measures, such as our SafeSend feature, to protect your assets, we cannot guarantee the absolute security of your funds. Always ensure that you are using the correct wallet addresses and follow best practices for securing your private keys. By using our services, you agree to our terms and conditions and acknowledge that you are responsible for any transactions made through our platform.</p>
             </div>
 
             {/* Right Side: Footer Links */}
-            <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-between">
-              <div className="grid grid-cols-2 md:flex md:flex-row w-full gap-4">
-                {/* List 1 */}
-                <ul className="mb-4 md:mb-0 space-y-5 w-full">
-                  <li className="font-bold">TRUSTVAULT</li>
-                  <li>Home</li>
-                  <li>About us</li>
-                  <li>Features</li>
-                  <li>Press & Partners</li>
-                  <li>Blog</li>
-                  <li>Privacy Policy</li>
-                  <li>Terms of Service</li>
-                </ul>
+          <div className="md:w-1/2 flex flex-col md:flex-row justify-between gap-x-14"> {/* Added gap-x-8 for horizontal gap */}
+  <ul className="flex-1 flex flex-col justify-between mb-4 md:mb-0 space-y-5 text-stone-300">
+    <li className="mb-2 font-bold text-white">TRUSTVAULT</li>
+    <li className="mb-2">Home</li>
+    <li className="mb-2">About us</li>
+    <li className="mb-2">Features</li>
+    <li className="mb-2">Press & Partners</li>
+    <li className="mb-2">Blog</li>
+    <li className="mb-2">Privacy Policy</li>
+    <li className="mb-2">Terms of Service</li>
+  </ul>
+  
+  <ul className="flex-1 flex flex-col justify-between mb-4 md:mb-0 space-y-5 text-stone-300">
+    <li className="mb-2 font-bold text-white">DISCOVER</li>
+    <li className="mb-2">Learn & Explore</li>
+    <div className="flex items-start ml-3">
+      <span className="mr-2">&#8226;</span>
+      <p>Getting Started Guide</p>
+    </div>         
+    <div className="flex items-start ml-3">
+      <span className="mr-2">&#8226;</span>
+      <p>Blockchain & Crypto 101</p>
+    </div>
+    <li className="mb-2">Blockchain & Crypto 101</li>
+    <div className="flex items-start ml-3">
+      <span className="mr-2">&#8226;</span>
+      <p>FAQ</p>
+    </div>
+    <div className="flex items-start ml-3">
+      <span className="mr-2">&#8226;</span>
+      <p>Knowledge Base</p>
+    </div>
+    <li className="mb-2">Stay Connected</li>
+    <div className="flex items-start ml-3">
+      <span className="mr-2">&#8226;</span>
+      <p>Tutorials</p>
+    </div>         
+  </ul>
+  
+  <ul className="flex-1 flex flex-col justify-between mb-4 md:mb-0 space-y-5 text-stone-300">
+    <li className="mb-2 font-bold text-white">FOLLOW US</li>
+    <div className='flex items-start gap-3'>
+      <img src={footerTel} alt="Telegram" />
+      <li className="mb-2">Telegram</li>
+    </div>
+    <div className='flex items-start gap-3'>
+      <img src={footerTwitter} alt="X(Twitter)" />
+      <li className="mb-2">X(Twitter)</li>
+    </div>
+    <div className='flex items-start gap-3'>
+      <img src={footerLinkedIn} alt="LinkedIn" />
+      <li className="mb-2">LinkedIn</li>
+    </div>
+    <div className='flex items-start gap-3'>
+      <img src={footerMedium} alt="Medium" />
+      <li className="mb-2">Medium</li>
+    </div>
+    <div className='flex items-start gap-3'>
+      <img src={footerFacebook} alt="Facebook" />
+      <li className="mb-2">Facebook</li>
+    </div>
+    <div className='flex items-start gap-3'>
+      <img src={footerGithub} alt="Github" />
+      <li className="mb-2">Github</li>
+    </div>
+  </ul>
+</div>
 
-                {/* List 2 */}
-                <ul className="mb-4 md:mb-0 space-y-5 w-full">
-                  <li className="font-bold">DISCOVER</li>
-                  <li>Home</li>
-                  <li>About us</li>
-                  <li>Features</li>
-                  <li>Press & Partners</li>
-                  <li>Blog</li>
-                  <li>Privacy Policy</li>
-                  <li>Terms of Service</li>
-                </ul>
 
-                {/* List 3 for Mobile */}
-                <ul className="mb-4 md:mb-0 space-y-5 w-full md:hidden">
-                  <li className="font-bold">FOLLOW US</li>
-                  <li>Home</li>
-                  <li>About us</li>
-                  <li>Features</li>
-                  <li>Press & Partners</li>
-                  <li>Blog</li>
-                  <li>Privacy Policy</li>
-                  <li>Terms of Service</li>
-                </ul>
-              </div>
-
-              {/* Mobile-only List 3 */}
-              <ul className="hidden md:flex md:flex-col mb-4 md:mb-0 space-y-5">
-                <li className="font-bold">FOLLOW US</li>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Features</li>
-                <li>Press & Partners</li>
-                <li>Blog</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-              </ul>
-            </div>
           </footer>
 
         </div>
       </section>
+
+
     </div>
+
+
   );
 }
 
